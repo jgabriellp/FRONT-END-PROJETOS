@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="imc.css">
+		<title>IMC - CÁLCULO</title>
+	</head>
+	<body>
+		<h1>Gabriel Lima</h1>
+		<div class="conteiner">
+			<div class="passo-1">
+				<h3>clique para calcular o imc</h3>
+				<button id="iniciar">iniciar</button>
+			</div>
+
+			<div class="passo-2">
+				<h3>calculadora imc</h3>
+				<hr>
+				<form id="form">
+					<label for="peso">digite seu peso:</label>
+					<input placeholder="seu peso" id="peso">
+
+					 <br><br>
+
+					<label for="altura">digite sua altura:</label>
+					<input placeholder="sua altura" id="altura">
+				</form>
+
+				<br><br>
+
+				<button id="calcular">calcular</button>
+				<button id="limpar">limpar</button>
+			</div>
+
+			<div class="passo-3">
+				<h3>resultado:</h3>
+				<p id="resultado"></p>
+				<button id="cn">calcular novamente</button>
+				<button id="finalizar">finalizar</button>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script type="text/javascript" src="./imc.js"></script>
+	</body>
+</html>
